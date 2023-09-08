@@ -32,6 +32,7 @@ import * as shreddingSassy from "./shredding-sassy";
 import * as soundxyz from "./soundxyz";
 import * as tfoust from "./tfoust";
 import * as utopiaAvatars from "./utopia-avatars";
+import * as fractonxGenesis from "./fractonx-genesis"
 
 export const hasExtendHandler = (chainId, contract) => Boolean(extend[`${chainId},${contract}`]);
 
@@ -280,3 +281,6 @@ extend["1,0x11708dc8a3ea69020f520c81250abb191b190110"] = cryptokicksIrl;
 
 // Utopia Avatars
 extend["1,0x5f076e995290f3f9aea85fdd06d8fae118f2b75c"] = utopiaAvatars;
+
+// frontx genesis
+extend["1,0x91b5b942592a69dfd3a74311139cbbf9fc683e20"] = fractonxGenesis;
